@@ -452,10 +452,6 @@ Takes the validated JSON from Step 17 and injects it into a branded HTML/CSS tem
 **Purpose:**
 Takes the raw HTML string from Step 18 and converts it into a high-quality, client-ready PDF. Returns a secure hosted URL for the generated document.
 
-**Configuration Notes:**
-* API Docs: https://developer.pdf.co/
-* Filename format: `{Business_Name}_Automation_Shopping_List_{Date}.pdf`
-
 ---
 
 ### Step 20 — Code Node: Prepare GHL Payload
