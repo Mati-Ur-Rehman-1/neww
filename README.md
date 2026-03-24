@@ -38,37 +38,3 @@ The dynamic pricing database for tiers, adjustment factors, automation patterns,
 ### 5. PDF Output Structure
 The structure and sections of the generated client-facing PDF document.
 * [PDF Structure Documentation](./PDF_Structure_Documentation.md)
-
----
-
-## System Requirements
-
-| Requirement | Value |
-|---|---|
-| Shopping list generation time | < 5 minutes from form submission |
-| PDF generation time | < 30 seconds |
-| Concurrent submissions supported | Up to 5 |
-| Target uptime (business hours AEST) | 99% |
-| API retry attempts on failure | 3 |
-| Monthly audit capacity (no modification needed) | 50+ |
-
----
-
-## Tech Stack
-
-| Component | Tool |
-|---|---|
-| CRM & Trigger | GoHighLevel |
-| Workflow Orchestration | n8n (hosted at selrai.app.n8n.cloud) |
-| AI Agents | OpenAI GPT-5.2 |
-| Reference Data | Google Sheets |
-| PDF Generation | PDF.co (HTML to PDF) |
-| Data Storage | GHL Custom Fields |
-
----
-
-## Version History
-
-| Version | Date | Author | Notes |
-|---|---|---|---|
-| 1.0 | 2024-12-23 | Harvey Shaw | Initial release — approved for MVP development |
